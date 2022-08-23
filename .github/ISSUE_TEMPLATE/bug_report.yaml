@@ -1,0 +1,25 @@
+name: Bug Report
+description: Something doesn't work correctly in ImHex.
+title: "[Bug] "
+body:
+- type: textarea
+  attributes:
+    label: What's the issue you encountered?
+    description: |
+      Describe the issue in detail and what you were doing beforehand.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How can the issue be reproduced?
+    description: Include a detailed step by step process for recreating your issue.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional context?
+    value: |
+      - Additional information about your environment.
+      - If possible and useful, please upload the binary you've been editing when the bug occurred.
+  validations:
+    required: false
